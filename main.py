@@ -68,7 +68,7 @@ def get_api_key():
 
 # openai_api_key = get_api_key()
 
-open_ai_key = os.environ.get('OPEN_AI_KEY')
+openai_api_key = os.environ.get('OPEN_AI_KEY')
 
 col1, col2 = st.columns(2)
 with col1:
