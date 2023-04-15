@@ -1,6 +1,7 @@
 import streamlit as st
 from langchain import PromptTemplate
 from langchain.llms import OpenAI
+import os
 
 
 open_ai_key = os.environ.get('OPEN_AI_KEY')
